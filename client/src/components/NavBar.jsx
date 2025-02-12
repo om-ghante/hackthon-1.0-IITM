@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="bg-black bg-opacity-50 p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-2xl font-bold">HACKATHON</div>
+        <div className="text-2xl font-bold">HackEclipse</div>
         <ul className="hidden md:flex space-x-4">
           <li>
             <a href="#home" className="hover:text-sky-300">
