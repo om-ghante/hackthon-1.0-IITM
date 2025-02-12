@@ -8,7 +8,7 @@ const Home = () => {
       <div className="text-center">
         <h1 className="text-6xl font-bold mb-4">HackEclipse</h1>
         <h2 className="text-3xl mb-8">IITM BS Degree</h2>
-        <h2 className="text-3xl mb-8">(Kanha X Sundarbans House)</h2>
+        <h2 className="text-3xl mb-8">Kanha X Sundarbans House</h2>
         <div className="flex justify-center space-x-4 mb-8">
           <img src={KanhaHLogoImage} alt="Image 1" className="w-24 h-24 rounded-full" />
           <img src={SundarbanHLogoImage} alt="Image 2" className="w-24 h-24 rounded-full" />
