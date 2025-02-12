@@ -1,4 +1,5 @@
 import React from "react"
+import Hackathon from "../assets/hackthon.png"
 
 const AboutHackathon = () => {
   return (
@@ -14,7 +15,7 @@ const AboutHackathon = () => {
             </p>
           </div>
           <div className="md:w-1/2 md:pl-8">
-            <img src="/placeholder.svg?height=300&width=400" alt="Hackathon" className="w-full rounded-lg shadow-lg" />
+            <img src={Hackathon} alt="Hackathon" className="w-full rounded-lg shadow-lg" />
           </div>
         </div>
       </div>

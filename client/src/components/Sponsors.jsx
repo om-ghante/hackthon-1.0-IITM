@@ -1,4 +1,5 @@
 import React from "react"
+import sponsorImage from "../assets/image.png";
 
 const SponsorCard = ({ name, image }) => {
     return (
@@ -14,14 +15,14 @@ const SponsorCard = ({ name, image }) => {
 
 const Sponsors = () => {
   const sponsors = [
-    { name: "Sponsor 1", image: "../assets/image.png" },
-    { name: "Sponsor 2", image: "../assets/image.png" },
-    { name: "Sponsor 3", image: "../assets/image.png" },
-    { name: "Sponsor 4", image: "../assets/image.png" },
-    { name: "Sponsor 5", image: "../assets/image.png" },
-    { name: "Sponsor 6", image: "../assets/image.png" },
-    { name: "Sponsor 7", image: "../assets/image.png" },
-    { name: "Sponsor 8", image: "../assets/image.png" },
+    { name: "Sponsor 1", image: sponsorImage },
+    { name: "Sponsor 2", image: sponsorImage },
+    { name: "Sponsor 3", image: sponsorImage },
+    { name: "Sponsor 4", image: sponsorImage },
+    { name: "Sponsor 5", image: sponsorImage },
+    { name: "Sponsor 6", image: sponsorImage },
+    { name: "Sponsor 7", image: sponsorImage },
+    { name: "Sponsor 8", image: sponsorImage },
   ]
 
   return (
