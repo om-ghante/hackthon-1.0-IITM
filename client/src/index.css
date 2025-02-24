@@ -1,7 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-body {
-  @apply bg-gradient-to-b from-sky-gradient-start to-sky-gradient-end min-h-screen text-white;
-}
