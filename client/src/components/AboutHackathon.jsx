@@ -1,27 +1,19 @@
-import React from "react"
-import Hackathon from "../assets/hackthon.png"
+"use client"
+import { motion } from "framer-motion"
 
-const AboutHackathon = () => {
+const About = () => {
   return (
-    <section id="about" className="py-16">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-8 text-center">About Hackathon</h2>
-        <div className="flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2 mb-8 md:mb-0">
-            <p className="text-lg">
-              Our hackathon is a 24-hour coding competition that brings together talented developers, designers, and
-              innovators to create amazing projects. Join us for an exciting event filled with creativity,
-              collaboration, and cutting-edge technology!
-            </p>
-          </div>
-          <div className="md:w-1/2 md:pl-8">
-            <img src={Hackathon} alt="Hackathon" className="w-full rounded-lg shadow-lg" />
-          </div>
-        </div>
-      </div>
+    <section className="py-16 px-4">
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
+        <h2 className="text-4xl font-bold mb-8 text-center">About Us</h2>
+        <p className="text-lg max-w-3xl mx-auto text-center">
+          We are a community of innovators, dreamers, and builders. Our hackathon brings together the brightest minds to
+          solve real-world problems and push the boundaries of technology.
+        </p>
+      </motion.div>
     </section>
   )
 }
 
-export default AboutHackathon
+export default About
 

@@ -1,39 +1,24 @@
-import React from "react"
-import sponsorImage from "../assets/image.png";
-
-const SponsorCard = ({ name, image }) => {
-    return (
-      <div className="relative overflow-hidden rounded-lg shadow-lg group">
-        <img src={image} alt={name} className="w-full h-48 object-cover" />
-        <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <p className="text-white text-center">{name}</p>
-        </div>
-      </div>
-    )
-  }
-  
+"use client"
+import { motion } from "framer-motion"
 
 const Sponsors = () => {
-  const sponsors = [
-    { name: "Sponsor 1", image: sponsorImage },
-    { name: "Sponsor 2", image: sponsorImage },
-    { name: "Sponsor 3", image: sponsorImage },
-    { name: "Sponsor 4", image: sponsorImage },
-    { name: "Sponsor 5", image: sponsorImage },
-    { name: "Sponsor 6", image: sponsorImage },
-    { name: "Sponsor 7", image: sponsorImage },
-    { name: "Sponsor 8", image: sponsorImage },
-  ]
+  const sponsors = ["Sponsor 1", "Sponsor 2", "Sponsor 3", "Sponsor 4"]
 
   return (
-    <section id="sponsors" className="py-16">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-8 text-center">Sponsors</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {sponsors.map((sponsor, index) => (
-            <SponsorCard key={index} name={sponsor.name} image={sponsor.image} />
-          ))}
-        </div>
+    <section className="py-16 px-4">
+      <h2 className="text-4xl font-bold mb-8 text-center">Our Sponsors</h2>
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        {sponsors.map((sponsor, index) => (
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: index * 0.1 }}
+            className="bg-gray-800 p-4 rounded-lg flex items-center justify-center"
+          >
+            <span className="text-xl font-bold">{sponsor}</span>
+          </motion.div>
+        ))}
       </div>
     </section>
   )

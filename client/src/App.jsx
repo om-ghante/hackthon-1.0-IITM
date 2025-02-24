@@ -1,24 +1,26 @@
-import React from 'react'
-import './App.css'
-
-import Navbar from "./components/NavBar"
-import Home from "./components/Home"
-import AboutHackathon from "./components/AboutHackathon"
+"use client"
+import { motion } from "framer-motion"
+import Hero from "./components/Home"
+import About from "./components/AboutHackathon"
+import Contact from "./components/ContactUs"
 import Sponsors from "./components/Sponsors"
-import Team from "./components/Team"
-import ContactUs from "./components/ContactUs"
+import FAQ from "./components/FAQ"
+import Footer from "./components/Footer"
 
-function App() {
+const App = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-sky-gradient-start to-sky-gradient-end text-white">
-      <Navbar />
-      <Home />
-      <AboutHackathon />
-      <Sponsors />
-      <Team />
-      <ContactUs />
+    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-black to-pink-900 text-white">
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
+        <Hero />
+        <About />
+        <Sponsors />
+        <FAQ />
+        <Contact />
+        <Footer />
+      </motion.div>
     </div>
   )
 }
 
-export default App;
+export default App
+
