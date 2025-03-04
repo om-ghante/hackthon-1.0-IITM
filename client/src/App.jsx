@@ -4,6 +4,7 @@ import Navbar from './components/NavBar';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import FaqSection from './components/FaqSection';
+import Sponsors from './components/Sponsors';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -66,6 +67,7 @@ function App() {
         <main>
           <HeroSection />
           <AboutSection />
+          <Sponsors />
           <FaqSection />
         </main>
         <Footer />
