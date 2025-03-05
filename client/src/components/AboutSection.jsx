@@ -158,7 +158,7 @@ const AboutSection = () => {
               ref={addToRefs}
               className="text-4xl md:text-6xl font-black text-white mb-6 tracking-tight opacity-0 transition-opacity duration-1000 bg-clip-text text-transparent bg-gradient-to-r from-white via-purple-200 to-blue-200"
             >
-              KANHA X SUNDERBANS HOUSE
+              KANHA X SUNDARBANS HOUSE
             </h2>
             <div className="relative h-1 mx-auto overflow-hidden">
               <div 
