@@ -71,7 +71,7 @@ const HeroSection = () => {
             <span className="inline-block bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text text-sm font-bold tracking-widest mb-2">
               IIT Madras
             </span>
-            <h1 className="font-black text-6xl md:text-7xl lg:text-8xl tracking-tight mb-6 bg-gradient-to-r from-white via-purple-200 to-cyan-200 text-transparent bg-clip-text">
+            <h1 className="font-black text-4xl md:text-7xl lg:text-8xl tracking-tight mb-6 bg-gradient-to-r from-white via-purple-200 to-cyan-200 text-transparent bg-clip-text">
                 HackEclipse
             </h1>
             <div className="h-1 w-20 bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full mb-6"></div>
