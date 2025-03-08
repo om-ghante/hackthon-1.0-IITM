@@ -7,6 +7,8 @@ import FaqSection from './components/FaqSection';
 import Sponsors from './components/Sponsors';
 import Footer from './components/Footer';
 import './App.css';
+import IITMBSDegree from './components/IITMBSDegree';
+import HackEclipseTimeline from './components/HackEclipseTimeline';
 
 function App() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -67,6 +69,8 @@ function App() {
         <main>
           <HeroSection />
           <AboutSection />
+          <IITMBSDegree />
+          <HackEclipseTimeline />
           <Sponsors />
           <FaqSection />
         </main>
