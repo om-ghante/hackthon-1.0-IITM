@@ -74,6 +74,9 @@ const HeroSection = () => {
             <h1 className="font-black text-6xl md:text-7xl lg:text-8xl tracking-tight mb-6 bg-gradient-to-r from-white via-purple-200 to-cyan-200 text-transparent bg-clip-text">
                 HackEclipse
             </h1>
+            <p className="text-gray-300 text-lg md:text-xl leading-relaxed mb-8 max-w-xl">
+              "Where Ideas Meet Innovation."
+            </p>
             <div className="h-1 w-20 bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full mb-6"></div>
             <p className="text-gray-300 text-lg md:text-xl leading-relaxed mb-8 max-w-xl">
               Forge your software through the HackEclipse. Discover the extraordinary and reshape reality with powers beyond imagination.
