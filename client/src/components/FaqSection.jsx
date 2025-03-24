@@ -94,24 +94,40 @@ const FaqItem = ({ question, answer }) => {
 const FaqSection = () => {
   const faqs = [
     {
-      question: "What is this hackathon about?",
-      answer: "Our hackathon is focused on futuristic technologies including AI, blockchain, VR/AR, and quantum computing. Participants will collaborate to build innovative solutions that address real-world challenges."
+      question: "What is HackEclipse?",
+      answer: "HackEclipse is a mulƟ-stage hackathon organized by IIT Madras BS students, focusing on solving real-world challenges through innovaƟon."
     },
     {
       question: "Who can participate?",
-      answer: "This hackathon is open to developers, designers, and innovators of all skill levels. Whether you're a seasoned professional or just starting your tech journey, everyone is welcome to join and contribute."
+      answer: "Students from diverse backgrounds who are passionate about technology, problem-solving, and innovation."
     },
     {
-      question: "Do I need to have a team?",
-      answer: "While having a team is recommended, it's not mandatory. We'll host team formation activities before the event where solo participants can connect and form teams. Teams typically consist of 2-5 members."
+      question: "How do I register?",
+      answer: "RegistraƟon starts on 20th March 2025. Follow the link provided on the official event website to sign up."
+    },
+    {
+      question: "What are the key dates?",
+      answer: "RegistraƟon Begins: 20th March 2025 PPT, Submission Deadline: 20th April 2025, Prototype Submission Deadline: 9th May 2025, Final Judgement Round: 10th May 2025"
+    },
+    {
+      question: "What are the event tracks?",
+      answer: "ParƟcipants can compete in: Environmental Sustainability Healthcare & Well-being EducaƟon for All Open Innovation FinTech"
+    },
+    {
+      question: "Is there any registraƟon fee?",
+      answer: "No, HackEclipse is free to parƟcipate in."
+    },
+    {
+      question: "Are there any mentorship opportuniƟes? ",
+      answer: "Yes, student mentor sessions will be held from 24th–30th April 2025 to guide parƟcipants."
     },
     {
       question: "What are the prizes?",
-      answer: "The winning team will receive $10,000 in cash, mentorship opportunities with industry leaders, and potential investment in their project. Additional category prizes include best UI/UX, most innovative use of AI, and community choice award."
+      answer: "Cash Prizes for winners and runners-up (INR 40,000 for winners). Goodies & Swags worth INR 30,000. Internship opportuniƟes for top performers."
     },
     {
-      question: "How does judging work?",
-      answer: "Projects will be evaluated by a panel of industry experts based on innovation, technical complexity, practicality, presentation quality, and alignment with the hackathon theme. Detailed judging criteria will be shared before the event."
+      question: "Will parƟcipants receive cerƟficates?",
+      answer: "Yes, all parƟcipants will receive cerƟficates, and winners will get special recogniƟon."
     }
   ];
 
